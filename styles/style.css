@@ -39,9 +39,6 @@ ol {
   list-style: none;
 }
 
-/* Ментальная модель вёрстки */
-/* Шаг 6. Состояния элементов формы и кнопок */
-
 .content {
   display: flex;
   align-items: end;
@@ -162,6 +159,7 @@ ol {
   cursor: pointer;
 }
 
+/* Buttons */
 .button {
   display: flex;
   justify-content: center;
@@ -197,6 +195,10 @@ ol {
 .search-form__submit-button {
   align-self: flex-end;
   inline-size: 194px;
+}
+
+.more-button {
+  inline-size: 100%;
 }
 
 /* section - content__details */
@@ -290,10 +292,6 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 6px;
-}
-
-.more-button {
-  inline-size: 100%;
 }
 
 .content__video-card-title {
