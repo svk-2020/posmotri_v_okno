@@ -44,7 +44,7 @@ ol {
   align-items: end;
   margin: auto;
   gap: 30px;
-  padding: 133px 30px;
+
 }
 
 .visually-hidden {
@@ -93,7 +93,7 @@ ol {
 }
 
 .search-form__fieldset-title {
-  font-family: Fira Sans Condensed, sans-serif;
+  font-family: inherit;
   font-weight: 400;
   font-size: 18px;
 }
@@ -125,6 +125,7 @@ ol {
   border-style: none;
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
+  padding: 2.5px 0;
   appearance: none;
 }
 
@@ -217,7 +218,7 @@ ol {
   font-style: normal;
   text-transform: uppercase;
   line-height: 94%;
-  color: #ffffff;
+  color: #fff;
 }
 
 .content__accent {
